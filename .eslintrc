@@ -1,0 +1,31 @@
+{
+    "extends": ["standard", "standard-react", "standard-jsx"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": 2017,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "allowImportExportEverywhere": true
+    },
+    "plugins": ["jest"],
+    "env": {
+      "jest": true,
+      "serviceworker": true,
+      "browser": true
+    },
+    "globals": {
+      "google": true
+    },
+    "rules": {
+      "react/prop-types": "off",
+      "comma-dangle": ["error", "always-multiline"],
+      "space-before-function-paren": ["error", {"anonymous": "always", "named": "never", "asyncArrow": "always"}],
+      "camelcase": "off",
+      "no-irregular-whitespace": "off",
+  
+      "jsx-quotes": ["error", "prefer-double"]
+    }
+  }
+  
