@@ -1,0 +1,35 @@
+.entryBlock {
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.entryBlock form,
+.row,
+.textField {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.textField {
+  margin-right: 12px;
+}
+
+.myApp {
+  margin: 20px auto;
+  width: 70%;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 28px 0;
+  text-align: center;
+}
+
+.addButton {
+  margin-left: 12px;
+}

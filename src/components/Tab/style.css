@@ -1,0 +1,17 @@
+.tab {
+  background: #fbeaff;
+  display: inline-block;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  min-width: 140px;
+}
+
+.tab:hover {
+  cursor: pointer;
+}
+
+.active {
+  background: #fff;
+  border-bottom: solid 2px #845ec2;
+}

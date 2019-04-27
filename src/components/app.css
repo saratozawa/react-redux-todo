@@ -1,0 +1,28 @@
+.myApp {
+}
+
+.header {
+  background: #845ec2;
+  padding: 20px;
+}
+
+.main {
+}
+
+.title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 28px 0;
+  text-align: center;
+}
+
+.entryBlock {
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.addButton {
+  margin-left: 12px;
+}
