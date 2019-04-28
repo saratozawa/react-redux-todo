@@ -9,7 +9,7 @@ type Props = {
   children: string,
 }
 
-export default function Tab(props: Props) {
+export default React.memo(function Tab(props: Props) {
   const {
     active,
     onClick,
@@ -19,7 +19,7 @@ export default function Tab(props: Props) {
   return (
     <span
        onClick={onClick}
-       className={classnames(styles.tab, active && styles['active'])}
+       className={classnames(styles.tab, active && styles.active)}
     >{children}</span>
   )
-}
+})

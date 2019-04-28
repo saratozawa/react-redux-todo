@@ -33,3 +33,7 @@
 .addButton {
   margin-left: 12px;
 }
+
+.errorMessage {
+  color: #ff9393;
+}

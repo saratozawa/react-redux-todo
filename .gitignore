@@ -48,3 +48,6 @@ coverage
 
 # IDEA
 .idea
+
+# build
+dist
